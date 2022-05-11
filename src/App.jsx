@@ -6,6 +6,7 @@ function App() {
 		<div className='App'>
 			<h1>Welcome to the app</h1>
 			<Button
+				type='button'
 				onClick={() => {
 					console.log('React Click')
 				}}
